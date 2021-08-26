@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    width: 100%;
+    height: 450vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+.full-page a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-bobur {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: hsl(356, 100%,66%);
+    border-bottom-left-radius: 80px;
+}
+
+.logo-bobur {
+    margin-top: 50px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+.logo-bobur img {
+    width: 70px;
+}
+
+.nav_menu {
+    margin-top: 50px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.nav_menu ul {
+    display: flex;
+}
+
+.nav_menu ul li {
+    margin-top: 8px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.login-bobur {
+    margin-top: 50px;
+    margin-left: 75%;
+    position: absolute;
+}
+
+.login-bobur li {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.signup-bobur {
+    margin-top: 50px;
+    margin-left: 75%;
+    position: absolute;
+}
+
+.signup-bobur button {
+    margin-left: 70px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #fff;
+    color: hsl(356, 100%,66%);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.text-bobur {
+    margin-top: 150px;
+    margin-left: 260px;
+    position: absolute;
+}
+
+.text-bobur h1 {
+    font-size: 61px;
+    font-family: 'Overpass', sans-serif;
+    color: #FFF;
+}
+
+.text-bobur p {
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+    margin-left: 185px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.text-bobur ul {
+    display: flex;
+    list-style: none;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.text-bobur ul button {
+    font-family: 'Overpass', sans-serif;
+    margin-left: 70px;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn1-bobur {
+    color: hsl(356, 100%, 66%);
+    background: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2-bobur {
+    background: hsl(356, 100%, 66%);
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.btn2-bobur:hover {
+    background: #fff;
+    color: hsl(356, 100%, 66%);
+    transition: 1s
+}
+
+.body-bobur {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 50px;
+}
+
+.row-bobur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-1-bobur {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-1-bobur img {
+    width: 700px;
+    margin-left: 170px;
+}
+
+.left_text1 h1, .left_text2 h1 {
+    margin-top: 90px;
+    margin-left: 160px;
+    font-size: 20px;
+    font-family: 'overflow', sans-serif;
+    font-weight: 900;
+}
+
+.left_text1 p, .left_text2 p {
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.left_text2 {
+    margin-top: 50px;
+}
+
+
+.body-bobur1 {
+    width: 100%;
+    height: 330px;
+    background: hsl(237, 17%, 21%);
+    margin-top: 80px;
+    border-radius: 0 80px 0 80px;
+    overflow: hidden;
+}
+
+.body-bobur1 img {
+    width: 890px;
+    transform: translate(-21%, -49%);
+}
+
+.left_text3 img {
+    transform: translateY(-200%);
+    width: 450px;
+    margin-left: 160px;
+    position: absolute;
+}
+
+.body-bobur1 h1 {
+    position: absolute;
+    transform: translateY(-792px);
+    margin-left: 649px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.body-bobur1 p {
+    position: absolute;
+    margin-left: 649px;
+    transform: translateY(-792px);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 4rem;
+}
+
+.body-bobur2 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 280vh;
+    display: flex;
+}
+
+.left_text5 img {
+    width: 900px;
+    transform: translateX(-252px);
+}
+
+.right_text {
+    transform: translate(-100px, 185px);
+}
+
+.right_text1 h1, .right_text2 h1 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+}
+
+.right_text1 p, .right_text2 p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.right_text2 {
+    margin-top: 60px;
+}
+
+.footer-bobur {
+    width: 100%;
+    height: 300px;
+    background: hsl(240, 10%, 16%);
+    position: absolute;
+    margin-top: 410vh;
+    border-radius: 0 80px 0 0;
+}
+
+.logol-bobur {
+    width: 70px;
+    margin-top: 80px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.logol-bobur img {
+    width: 70px;
+}
+
+.elements {
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 87px;
+}
+
+.elements ul {
+    display: flex;
+}
+
+.elements ul li {
+    margin-left: 200px;
+    color: #fff;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+}
+
+.col-2-bobur {
+    margin-left: 500px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.col-2-bobur ul li, .col-3-bobur ul li, .col-4-bobur ul li {
+    list-style: none;
+    color: #fff;
+    line-height: 2;
+    font-family: 'overpass', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.col-3-bobur {
+    margin-left: 766px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.col-4-bobur {
+    margin-left: 1042px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.footer-bobur a {
+    text-decoration: none;
+}

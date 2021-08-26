@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogr Landing Page BoburDev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="header-bobur">
+            <div class="logo-bobur">
+                <a href="#"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="nav_menu">
+                <ul>
+                    <a href="#"><li>Product <img src="./images/icon-arrow-light.svg" alt=""></li></a>
+                    <a href="#"><li>Company <img src="./images/icon-arrow-light.svg" alt=""></li></a>
+                    <a href="#"><li>Connect <img src="./images/icon-arrow-light.svg" alt=""></li></a>
+                </ul>
+            </div>
+            <div class="login-bobur">
+                <li>Login</li>
+            </div>
+            <div class="signup-bobur">
+                <button>SIng Up</button>
+            </div>
+            <div class="text-bobur">
+                <h1>A modern publish platform</h1>
+                <p>Grow your audience and bulid your onlie brand</p>
+                <ul>
+                    <button class="btn1-bobur">Start for Free</button>
+                    <button class="btn2-bobur">Learn More</button>
+                </ul>
+            </div>
+        </div>
+        <div class="body-bobur">
+            <div class="heading">
+                <h1>Designed for the future</h1>
+            </div>
+            <div class="row-bobur">
+                <div class="col-1-bobur">
+                    <div class="left_text">
+                        <div class="left_text1">
+                            <h1>Introducing an extensible editor</h1>
+                            <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+                                The editor support management of multiple bloges and allows easy manipulation of embeds such as images, videos, and Markdown.Extensibilit with plugins and themes provide easy ways to add functionality or change the looks of a blog. </p>
+                        </div>
+                        <div class="left_text2">
+                            <h1>Robust content managemant</h1>
+                            <p>Flexible content management enables users to esily move through posts. Increase the usability of your blog by adding curstomized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-bobur">
+                    <img src="./images/illustration-editor-desktop.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="body-bobur1">
+            <img src="./images/bg-pattern-circles.svg" alt="">
+            <div class="left_text3">
+                <img src="./images/illustration-phones.svg" alt="">
+            </div>
+            <h1>State of the Art Infrastructure</h1>
+            <p>With reliability and speed in mind worldwide data centers provide the <br> backbone for ultra-fast connectivity. This ensures your site will load <br> instantly, no metter where you readers are, keeping your site <br> competitive.</p>
+        </div>
+    </div>
+    <div class="body-bobur2">
+        <div class="left_text5">
+            <img src="./images/illustration-laptop-desktop.svg" alt="">
+        </div>
+        <div class="right_text">
+            <div class="right_text1">
+                <h1>Free, open, simple</h1>
+                <p>Blogr is free and open source application backed by a large <br> community of helpful developers. It supports features such as code syntax highlighting. RSS feeds, socila media integration, third-partly commenting tools, and works seamlessly with Google Analytics. <br> The architecture is clean and is relatively easy to learn.</p>
+            </div>
+            <div class="right_text2">
+                <h1>Powerful tooling</h1>
+                <p>Batteries included. We built a simple and strightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bobur">
+        <div class="logol-bobur">
+            <a href=""><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <div class="elements">
+            <ul>
+                <li>Product</li>
+                <li>Company</li>
+                <li>Connect</li>
+            </ul>
+        </div>
+        <div class="col-2-bobur">
+            <ul>
+                <a href="#"><li>Overview</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="#"><li>Marketplace</li></a>
+                <a href="#"><li>Features</li></a>
+                <a href="#"><li>Integrations</li></a>
+            </ul>
+        </div>
+        <div class="col-3-bobur">
+            <ul>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Team</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Careers</li></a>
+            </ul>
+        </div>
+        <div class="col-4-bobur">
+            <ul>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Newsletter</li></a>
+                <a href="#"><li>LinkedIn</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({distance:'30px', duration:1800, reset: ture});
+        sr.reveal('.left_text1, .left_text2, .left_text5',{origin: 'left'});
+        sr.reveal(".col-1-bobur img, .right_text1, .right_text2",{origin: 'right'});
+    </script>
+</body>
+</html>
